@@ -1,0 +1,43 @@
+name: NovaStaff
+main: net.dark.luxistaff.Main
+author: _Its_D4rk_
+version: 1.0
+api-version: 1.19
+commands:
+  invsee:
+    usage: /invsee <player>
+    description: permette di visualizzare l'inventario del utente specificato
+    permission: luxistaff.invsee
+  ss:
+    description: Teletrasporta un giocatore a un altro
+    usage: /ss <player>
+    permission: luxistaff.ss
+  whois:
+    description: Ottieni informazioni su un giocatore
+    usage: /whois <player>
+    permission: luxistaff.whois
+  alerts:
+    description: esegue un comando già esistente
+    usage: /alerts
+    permission: luxistaff.alerts
+  cheatlog:
+    description: esegue /vulcan violations <player>
+    usage: /cheatlog <player>
+    permission: luxistaff.cheatlog
+  whoiscit:
+    description: esegue /vulcan profile <player>
+    usage: /whoiscit <player>
+    permission: luxistaff.whoiscit
+  admingui:
+    description: esegue /admin-gui:admin
+    usage: /admingui
+    permission: luxistaff.admingui
+  dupeip:
+    description: esegue /checkalt <player>
+    usage: /dupeip <player>
+    permission: luxistaff.dupeip
+  vanish:
+    description: Toggle vanish
+    usage: /vanish
+    permission: luxistaff.vanish
+
